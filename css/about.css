@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+                                  /* header*/
+header{
+    position: absolute;
+    height: 100%;
+}
+  
+a{
+    text-decoration:none;
+}
+
+.header-content nav{
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 100px;
+    position: fixed;  
+}
+  
+.header-content li{
+    display: block; 
+    margin-top: 70px;
+    margin-bottom: 70px; 
+}
+  
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px; 
+    position: flex;
+    height: auto;
+    overflow: auto;
+    border:2px solid #443035 ;
+    border-radius: 20px;
+    text-align: center;
+    border: 35px solid transparent;
+    padding: 15px;
+    border-radius: 30px;
+    border-image: url("../images/border2.png") 13% stretch;
+    border-image-outset:10px;
+    font-family: 'Padauk', sans-serif;
+    transition: transform .5s ease;
+    overflow: hidden;
+  }
+
+.navbar ul:hover{
+    transform: scale(1.05);
+}
+   
+.header-content nav ul li a{
+    color:black;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 30px;
+}
+  
+li a:hover:not(.active){
+    background-color:#f2d09d; 
+    border:2px solid #382506; 
+    color: #ffffd6;
+    border-radius: 25px;  
+}
+  
+.active{
+    background-color:#f2d09d; 
+    border:2px solid #382506; 
+    border-radius: 25px;    
+}
+  
+.logo{
+    text-align: center;   
+}
+  
+.logo img{
+    max-width: 300px;
+}
+
+                                  /* home */
+  
+body {  
+    background-image: url("../images/unit.jpg");
+    background-repeat: repeat;;   
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.about{ 
+    margin-top: 30px;
+    margin-bottom: 120px;
+    margin-left: 30vw;
+}
+
+.story1,
+.story2
+{
+    text-align: center;
+    color:#442a0d;
+    font-size: 25px;
+    line-height: 35px;
+    width: 55%;
+    margin-bottom: 70px;
+    font-family: 'Fredericka the Great', cursive; 
+}
+
+hr{
+    margin-bottom: 70px;
+    width: 38vw;
+    height: 4px;
+    text-align: center;
+    background-color: #442a0d;
+}
+
+.story1 img,
+.story2 img
+{
+    text-align: center;
+    width: 100%; 
+    border-radius: 12px;
+}
+
+.tit1,
+.tit2
+{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+                                    /*footer*/
+
+.footer-distributed{
+    border-top: 2px dashed rgb(165, 91, 42);
+    width: 100%;
+    height:100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+}
+
+.home{ 
+    background-image:url("../images/bp.jpg");
+    background-size: cover;  
+  
+}   
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+    margin-top: 7%;
+    margin-left:5% ;
+}
+
+.footer-distributed h3 span{
+    
+}
+
+.footer-distributed .name{
+    color:  #ffffff;
+    font-size: 17px;
+    font-weight: normal; 
+}
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.mn{
+    color: rgb(155, 218, 226);
+
+}
+
+/* Footer Right */
+.footer-distributed .footer-icons{
+    margin-top: 56%;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
