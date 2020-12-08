@@ -1,8 +1,7 @@
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* css 3*/ 
+    box-sizing: border-box; 
 }
   
   
@@ -104,14 +103,14 @@ body {
     margin-left: 22%;  
 }
 
-.title #work{
+.title .work{
     font-size: 60px;
     margin-bottom:100px;
     text-align: center;
     font-family: 'Fredericka the Great', cursive;   
 }
 
-.title #work1{
+.title .work1{
     font-size: 30px;
     margin-bottom: 30px;
     color: blue;
@@ -119,7 +118,7 @@ body {
     text-decoration: underline blue;
 }
 
-.title #work2{
+.title .work2{
     font-size: 20px;
     line-height: 40px;    
 }
@@ -164,8 +163,6 @@ input[type=submit]:hover {
     border: 2px solid #5ad7f0;
 }
 
-
-
                                     /*footer*/
 
 .footer-distributed{
@@ -203,17 +200,14 @@ input[type=submit]:hover {
     margin-left:5% ;
 }
 
-
 .footer-distributed h3 span{
     color:  lightseagreen;
 }
 
-
 .footer-distributed .name{
     color:  #ffffff;
     font-size: 17px;
-    font-weight: normal;
-    
+    font-weight: normal;   
 }
 
 /* Footer Center */

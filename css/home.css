@@ -143,8 +143,17 @@ body{
     font-family: 'Padauk', sans-serif;
     transition: transform .5s ease;
     overflow: hidden;
-
 }
+
+.palet img{
+    float: right;
+    width: 17vw;
+    height: 5vh;
+    margin-right: 110px;
+    margin-top: 15vh;
+    border: 2px solid;
+}
+
 .desc:hover{
     transform: scale(1.05);
 }
